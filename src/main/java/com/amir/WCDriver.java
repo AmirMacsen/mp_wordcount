@@ -31,6 +31,7 @@ public class WCDriver
         Configuration conf = new Configuration();
         // 2.设置本地运行
         conf.set("mapreduce.framework.name", "local");
+
         // 设置本地目录
         conf.set("mapreduce.cluster.local.dir", "/Users/xxx/workspace/javaprojects/mp_wordcount/mp_wordcount/src/main/resources\n");
 
